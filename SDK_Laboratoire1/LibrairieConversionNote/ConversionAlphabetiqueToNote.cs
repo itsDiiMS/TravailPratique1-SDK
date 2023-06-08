@@ -5,43 +5,32 @@ namespace LibrairieConversionNote
 {
     public class ConversionAlphabetiqueToNote
     {
-     
+        
         public static string Transformer(string lettre)
         {
+            lettre = lettre.ToUpper();
+            lettre = lettre.Trim();
 
-
-            if (lettre == "A")
+            switch (lettre)
             {
-                return "La note est LA";
+                case "A":
+                    return "La note est LA";
+                case "B":
+                    return "La note est SI";
+                case "C":
+                    return "La note est DO";
+                case "D":
+                    return "La note est RE";
+                case "E":;
+                    return "La note est MI";
+                case "F":
+                    return "La note est FA";
+                case "G":
+                    return "La note est SOL";
+                default:
+                    return "Invalide";
             }
-            else if (lettre == "B")
-            {
-                return "La note est SI";
-            }
-            else if (lettre == "C")
-            {
-                return "La note est DO";
-            }
-            else if (lettre == "D")
-            {
-                return "La note est RE";
-            }
-            else if (lettre == "E")
-            {
-                return "La note est MI";
-            }
-            else if (lettre == "F")
-            {
-                return "La note est FA";
-            }
-            else if (lettre == "G")
-            {
-                return "La note est SOL";
-            }
-            else if (lettre != "A" || lettre != "B" || lettre != "C" || lettre != "D" || lettre != "E" || lettre != "F" || lettre != "G") {
-                return "La lettre entree est invalide. Veuillez ressayer.";
-            }
-            return lettre;
+            
         }
     }
 

@@ -2,17 +2,16 @@
 using LibrairieConversionNote;
 string transformation;
 
-Console.WriteLine("Bienvenue au transformeur de lettres en notes. Veuillez remarquer que les lettres doivent etres en majuscules et que vous avez le choix de A a G. veuillez choisir votre lettre: ");
+Console.WriteLine("Bienvenue au transformeur de lettres en notes. Veuillez remarquer que vous avez le choix seulement entre A et G. veuillez choisir votre lettre: ");
 do
 {
     string lettreChoisie = Console.ReadLine();
     transformation = ConversionAlphabetiqueToNote.Transformer(lettreChoisie);
-    while(transformation == "La lettre entree est invalide. Veuillez ressayer.")
+    if (transformation == "Invalide")
     {
         Console.WriteLine("La lettre entree est invalide. Veuillez choisir a nouveau de A a G.");
-        break;
     }
-} while (transformation == "La lettre entree est invalide. Veuillez ressayer.");
+} while (transformation == "Invalide");
 Console.WriteLine(transformation);
     
 
