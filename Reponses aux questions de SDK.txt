@@ -1,0 +1,31 @@
+Nom complet: Diego Muller Salas
+Numéro d'étudiant: 2315080
+
+Questions:
+
+⦁	Quel outil avez-vous utilisé pour mettre à jour le repository distant? - Les commandes Git dans windows PowerShell
+
+⦁	Quelle est la suite de commandes utilisées pour effectuer le travail (commande ou capture d’écran)? - Cloner le projet dans le dossier desiré avec la commande git clone, Ajouter le gitignore donné par le professeur et ajouter un README et
+	créer le projet visual studio dans le dossier du projet git. Une fois tout prêt, passer à l'étape de stager les fichier avec la commande git add . ou git add (les fichiers qu'on veux ajouter).
+	ensuite on veux utiliser la commande git commit -m "message desiré" pour ajouter les dossier mis en stage au ripos local. Une fois qu'on desire pousser les fichiers dans notre ripos local,
+	on utilisera la commande git push. lors que les fichiers seront poussés, la branche Main (branche principale) sera mise à jour. Lors qu'on voudra faire des ajouts ou des modification a notre projet, on a juste a ajouter ou modifier directement dans le dossier installé sur notre ordinateur
+	pour ensuite repeter le processus de git add (Pour stager les dossier qu'on veux pousser vers notre ripos local), git commit (ne pas oublier le -m "message desiré" pour commenter sur ce qu<on pousse) et le git push lors qu'on veux pousser les fichiers recemment ajoutés au ripos distant.
+	Por savoir si on est en avance sur la branche principale, ou pour savoir si on a des fichiers rajoutées, on fait git status.
+
+⦁	Comment avez-vous fait votre validation? - J'ai fait un switch case où le default renvoie un return string "Invalide" et dans le code principale j'ai fait une boucle que lorsque le return de la methode Tranformation est "invalide" la boucle continue et j'ai fait un if que lorsque le return de la methode Tranformation est "Invalide", 
+	un code pour afficher un message d'entrée invalide s'affiche.  Bien evidemment, lorsque la boucle restart, une entrée est demandée.  
+
+⦁	Quelles sont les différences entre le repository local et distant? - le repository locale est notre repos personnel, où c'est juste moi qui travaille et le repos distant est le repos global / principale où le travail de tout le monde se melange (merge).
+
+⦁	GIT fait partie de quelle famille de gestionnaire de version? - DVCS (Distributed version control system), qui est le successeur de la famille des CVCS (centralized version control system) 
+
+⦁	Comment appel-ton la gestion des branches?  - Branching
+
+⦁	Expliquer moi dans vos mots qu’est qu’un SDK. - c'est un kit qui inclut les APis, les librairies, de la documentation et des exemples de codes d'une fonctionalité qu'on peut utiliser pour developper un logiciel, une application, un jeu ou n'importe quoi (dépendamment du SDK).
+	
+
+⦁	Qu’elles sont les différences entre une librairie et un SDK? - la librairie contient des réferences et utilitées qu'on peux reutiliser dans notre code, tandis que le sdk est un kit complet non pas juste avec les librairies, mais avec tout ce qu'on a besoin pour développler ce qu'on veut.
+
+⦁	Qu’elles sont les différences entre un Framework et un SDK? - un framework contient des classes prêts à l'utilisation qu'on peux utiliser sans devoir tout reprogrammer pour devoir acceder à ses librairies, et un SDK c'est tout dont t'as besoin pour developer quoi que ce soit (selon ce que le SDK offre)
+
+⦁	Qu’elles sont les différences entre un API et un SDK? - un API c'est des outils et des protocoles disponibles qui nous permettent d'acceder à la creation d'un logiciel, comme le serveur dans un restaurant, un moeyn de communication entre le client et les cuisiniers. Un SDK est le kit qui inclut les APis, les librairies, de la documentation et des exemples de codes d'une fonctionalité qu'on peut utiliser pour developper un logiciel, une application, un jeu ou n'importe quoi (dépendamment du SDK).
